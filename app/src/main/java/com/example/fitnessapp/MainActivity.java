@@ -47,7 +47,7 @@ public class MainActivity extends AppCompatActivity {
         biceptitle.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent a = new Intent(MainActivity.this, Workout.class);
+                Intent a = new Intent(MainActivity.this, Bisep.class);
                 a.addFlags(Intent.FLAG_ACTIVITY_NO_ANIMATION);
                 startActivity(a);
             }
@@ -56,7 +56,7 @@ public class MainActivity extends AppCompatActivity {
         shouldertitle.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent a = new Intent(MainActivity.this, Workout.class);
+                Intent a = new Intent(MainActivity.this, shoulder.class);
                 a.addFlags(Intent.FLAG_ACTIVITY_NO_ANIMATION);
                 startActivity(a);
             }
@@ -65,7 +65,7 @@ public class MainActivity extends AppCompatActivity {
         legtitle.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent a = new Intent(MainActivity.this, Workout.class);
+                Intent a = new Intent(MainActivity.this, Legs.class);
                 a.addFlags(Intent.FLAG_ACTIVITY_NO_ANIMATION);
                 startActivity(a);
             }
@@ -78,7 +78,6 @@ public class MainActivity extends AppCompatActivity {
         shoulder = (LinearLayout) findViewById(R.id.shoulder);
 
         imageView = (ImageView) findViewById(R.id.imageView);
-
 
         divpage = (View) findViewById(R.id.divpage);
 
