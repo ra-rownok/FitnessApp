@@ -17,7 +17,7 @@
         android:background="#25293E"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/subintropage" />
+        app:layout_constraintTop_toBottomOf="@id/subintropage_legs" />
 
     <TextView
         android:id="@+id/intropage_legs"
@@ -34,7 +34,7 @@
         app:layout_constraintTop_toBottomOf="@id/legs" />
 
     <TextView
-        android:id="@+id/subintropage"
+        android:id="@+id/subintropage_legs"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginLeft="24dp"
@@ -48,7 +48,7 @@
         app:layout_constraintTop_toBottomOf="@id/intropage_legs" />
 
     <TextView
-        android:id="@+id/timer"
+        android:id="@+id/timer_legs"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="144dp"
@@ -99,7 +99,7 @@
             android:orientation="vertical">
 
             <TextView
-                android:id="@+id/chesttitle_legs"
+                android:id="@+id/legstitle"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:fontFamily="@font/audiowide"
@@ -108,7 +108,7 @@
                 android:textSize="18sp" />
 
             <TextView
-                android:id="@+id/chestinfo_legs"
+                android:id="@+id/legsinfo"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:fontFamily="sans-serif"

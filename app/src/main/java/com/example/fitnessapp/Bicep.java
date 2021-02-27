@@ -13,14 +13,15 @@ import android.widget.TextView;
 
 import java.util.Locale;
 
-public class Legs extends AppCompatActivity {
+public class Bicep extends AppCompatActivity {
+
     TextView intropage;
     TextView subintropage;
     TextView titlepage;
     TextView subtitlepage;
     TextView timerValue;
     View divpage;
-    LinearLayout legs;
+    LinearLayout bicep;
     ImageView imageTimer;
 
     private static final long START_TIME_IN_MILLIS = 62000;
@@ -34,7 +35,7 @@ public class Legs extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_legs);
+        setContentView(R.layout.activity_bicep);
 
         getSupportActionBar().hide();
         animone = AnimationUtils.loadAnimation(this, R.anim.animone);
@@ -42,19 +43,19 @@ public class Legs extends AppCompatActivity {
         alphago = AnimationUtils.loadAnimation(this, R.anim.alphago);
 
 
-        intropage = (TextView) findViewById(R.id.intropage_legs);
-        subintropage = (TextView) findViewById(R.id.subintropage_legs);
-        titlepage = (TextView) findViewById(R.id.legstitle);
-        subtitlepage = (TextView) findViewById(R.id.legsinfo);
-        timerValue = (TextView) findViewById(R.id.timer_legs);
+        intropage = (TextView) findViewById(R.id.intropage_bicep);
+        subintropage = (TextView) findViewById(R.id.subintropage_bicep);
+        titlepage = (TextView) findViewById(R.id.biceptitle);
+        subtitlepage = (TextView) findViewById(R.id.bicepinfo);
+        timerValue = (TextView) findViewById(R.id.timer_bicep);
 
-        divpage = (View) findViewById(R.id.divpage_legs);
+        divpage = (View) findViewById(R.id.divpage_bicep);
 
-        legs = (LinearLayout) findViewById(R.id.legs);
+        bicep = (LinearLayout) findViewById(R.id.bicep);
 
-        imageTimer = (ImageView) findViewById(R.id.imageTimer_legs);
+        imageTimer = (ImageView) findViewById(R.id.imageTimer_bicep);
 
-        legs.startAnimation(animone);
+        bicep.startAnimation(animone);
         intropage.startAnimation(animtwo);
         subintropage.startAnimation(animtwo);
         divpage.startAnimation(animtwo);

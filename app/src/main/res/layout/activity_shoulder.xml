@@ -9,7 +9,7 @@
 
 
     <View
-        android:id="@+id/divpage"
+        android:id="@+id/divpage_shoulder"
         android:layout_width="match_parent"
         android:layout_height="1dp"
         android:layout_marginLeft="26dp"
@@ -18,10 +18,10 @@
         android:background="#25293E"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/subintropage" />
+        app:layout_constraintTop_toBottomOf="@id/subintropage_shoulder" />
 
     <TextView
-        android:id="@+id/intropage"
+        android:id="@+id/intropage_shoulder"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginLeft="24dp"
@@ -32,10 +32,10 @@
         android:textColor="#000"
         android:textSize="20sp"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/chest" />
+        app:layout_constraintTop_toBottomOf="@id/shoulder" />
 
     <TextView
-        android:id="@+id/subintropage"
+        android:id="@+id/subintropage_shoulder"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginLeft="24dp"
@@ -46,10 +46,10 @@
         android:textColor="#3A3A3A"
         android:textSize="16sp"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/intropage" />
+        app:layout_constraintTop_toBottomOf="@id/intropage_shoulder" />
 
     <TextView
-        android:id="@+id/timer"
+        android:id="@+id/timer_shoulder"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="144dp"
@@ -59,11 +59,11 @@
         android:textSize="68sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/divpage" />
+        app:layout_constraintTop_toBottomOf="@id/divpage_shoulder" />
 
 
     <ImageView
-        android:id="@+id/imageTimer"
+        android:id="@+id/imageTimer_shoulder"
         android:layout_width="320dp"
         android:layout_height="320dp"
         android:layout_marginLeft="8dp"
@@ -73,10 +73,10 @@
         app:layout_constraintEnd_toEndOf="parent"
 
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/divpage" />
+        app:layout_constraintTop_toBottomOf="@id/divpage_shoulder" />
 
     <LinearLayout
-        android:id="@+id/chest"
+        android:id="@+id/shoulder"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginLeft="24dp"
@@ -100,7 +100,7 @@
             android:orientation="vertical">
 
             <TextView
-                android:id="@+id/chesttitle"
+                android:id="@+id/shouldertitle"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:fontFamily="@font/audiowide"
@@ -109,7 +109,7 @@
                 android:textSize="18sp" />
 
             <TextView
-                android:id="@+id/chestinfo"
+                android:id="@+id/shoulderinfo"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:fontFamily="sans-serif"

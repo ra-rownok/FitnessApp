@@ -10,11 +10,10 @@ import android.view.animation.AnimationUtils;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.TextView;
-import android.widget.Toast;
 
 import java.util.Locale;
 
-public class Workout extends AppCompatActivity {
+public class Chest extends AppCompatActivity {
 
     TextView intropage;
     TextView subintropage;
@@ -36,7 +35,7 @@ public class Workout extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_workout);
+        setContentView(R.layout.activity_chest);
 
         getSupportActionBar().hide();
         animone = AnimationUtils.loadAnimation(this, R.anim.animone);

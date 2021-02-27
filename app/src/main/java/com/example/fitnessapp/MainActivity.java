@@ -38,7 +38,7 @@ public class MainActivity extends AppCompatActivity {
         chesttitle.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent a = new Intent(MainActivity.this, Workout.class);
+                Intent a = new Intent(MainActivity.this, Chest.class);
                 a.addFlags(Intent.FLAG_ACTIVITY_NO_ANIMATION);
                 startActivity(a);
             }
@@ -47,7 +47,7 @@ public class MainActivity extends AppCompatActivity {
         biceptitle.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent a = new Intent(MainActivity.this, Bisep.class);
+                Intent a = new Intent(MainActivity.this, Bicep.class);
                 a.addFlags(Intent.FLAG_ACTIVITY_NO_ANIMATION);
                 startActivity(a);
             }
